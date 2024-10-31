@@ -1,0 +1,94 @@
+.onv-wrapper {
+    max-width: 600px;
+    margin: 50px auto 0 auto;
+}
+
+.onv-wrapper h2 {
+    text-align: center;
+}
+
+.onv-wrapper .onv-link,
+.onv-wrapper .onv-link:hover {
+    color: #9eb74a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.onv-wrapper .onv-link:hover {
+    text-decoration: underline;
+}
+
+.onv-wrapper .onv-register {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.onv-wrapper .onv-review {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.onv-wrapper .form-group {
+    margin-bottom: 20px;
+}
+
+.onv-wrapper .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.onv-wrapper .form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.onv-wrapper .onv-label {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2px;
+}
+
+#onvocado-key {
+    &:focus {
+        box-shadow: 0 0 0 1px #c9e85e;
+        border-color: #c9e85e;
+    }
+}
+
+.onv-wrapper .notice {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.onv-wrapper .notice-success {
+    color: #10b981;
+    background-color: #e7f7e8;
+    border-left: 4px solid #10b981;
+}
+
+.onv-wrapper .notice-error {
+    color: #f56c6c;
+    background-color: #fbeaea;
+    border-left: 4px solid #f56c6c;
+}
+
+.onv-wrapper .submit {
+    text-align: center;
+
+    input {
+        background-color: #c9e85e;
+        border-color: #c9e85e;
+        color: #0d2814;
+        box-shadow: none !important;
+
+
+        &:hover,
+        &:focus {
+            background-color: #9eb74a;
+            border-color: #9eb74a;
+            color: #0d2814;
+        }
+    }
+}
